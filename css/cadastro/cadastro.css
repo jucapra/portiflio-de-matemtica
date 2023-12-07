@@ -1,0 +1,75 @@
+body {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+h1 {
+    background: rgb(250, 168, 68);
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+a:link {
+    color: #D7DCE1;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    color: rgb(0, 119, 255);
+}
+
+input:invalid {
+    background-color: red;
+}
+
+* {
+    border-radius: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#conteiner {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    border: 2px solid rgb(233, 116, 204);
+    background-image: linear-gradient(white, rgb(255, 147, 206));
+    padding: 10px;
+}
+
+.grupo{
+    width: 95%;
+    margin: auto;
+}
+
+label, p {
+    font-weight: bold;
+}
+input, select, fieldset, p{
+    width: 95%;
+    padding: 5px;
+    border: 2px solid rgb(243, 43, 120);
+    margin-top: 10px;
+}
+
+input[type=radio]{
+    width: 5%;
+}
+
+input[type=checkbox]{
+    width: 5%;
+}
+
+.botao{
+    background-color: green;
+    color: white;
+    border: 0px solid green;
+    margin-top: 10px;
+}
+
+.link{
+    text-align: center;
+}
